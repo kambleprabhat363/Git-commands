@@ -1,0 +1,59 @@
+GitHub
+
+ls - list 
+ls -a - hidden list
+ls <file_name> - what's inside that folder
+mkdir - make directory / make folder
+touch <file_name.{extension}> - make a file 
+
+rm -rf <file_name> - remove / delete file
+cd - change directory
+
+
+.git - it's a git repository 
+	. It contains history of each file and folder inside which folder it is present
+
+git init - to get a ".git" folder
+
+git status - see the current status what happened till last commit
+
+________When we done editing the file we'll use______
+
+Staging
+
+git add . ( WE can use either specific file name or "." to get the all the files from the folder)
+
+git log - to check the history 
+
+
+
+Git reset <log_number> - it'll remove the history upto copy pasted log log_number
+                        . The log number are connected to last commited section
+                        . 
+
+git log - it'll show the history of the commited folder
+
+git restore <file_name> - 
+
+Imagine you're working on project but whatever you've updated that you dont wanna add into that commited
+there we'll use "git stash" 
+    it'll hide those files which you have updated recently 
+    and whenever you want those files back you'll use "git stash pop"
+
+
+git stash - 
+git stash pop -
+--Note : .before doing 'git stash and pop' we have to do 'git add .'
+
+If you don't need that update just use
+git stash clear - to clear those hidden files
+
+uploading our project to github
+
+git remote add origin <url ending with .git>
+ 
+git remote -v 
+    ** It'll show the attached url to the folder
+
+
+git push origin master  
