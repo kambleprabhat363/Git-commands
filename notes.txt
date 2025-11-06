@@ -26,6 +26,10 @@ git add . ( WE can use either specific file name or "." to get the all the files
 git log - to check the history 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d117c2fcf56538ae3a29bab47f4018775c79bc08
 Git reset <log_number> - it'll remove the history upto copy pasted log log_number
                         . The log number are connected to last commited section
                         . 
